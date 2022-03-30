@@ -14,8 +14,8 @@ sleep(0.5)
 print('-='*20)
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)
-print('O computador jogou ... {}'.format(itens[computador]))
-print('O jogador jogou ... {}'.format(itens[jogador]))
+print(f'O computador jogou ... {itens[computador]}')
+print(f'O jogador jogou ... {itens[jogador]}')
 print('-='*20)
 if computador == 0: #Computador jogou pedra
     if jogador == 0:
